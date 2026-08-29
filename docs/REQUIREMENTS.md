@@ -37,3 +37,4 @@ Real fund movement, real fraud scoring, bank-specific ISO 20022 conformance, SWI
 
 ## Acceptance path
 Create customer -> create beneficiary -> create payment -> submit -> approve -> screen -> queue -> process -> settled. A synthetic sanctions match ends in rejected status.
+

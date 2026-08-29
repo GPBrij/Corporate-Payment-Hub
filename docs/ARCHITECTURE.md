@@ -61,3 +61,4 @@ sequenceDiagram
 - Finite-state workflow: makes invalid transitions explicit.
 - H2 plus PostgreSQL: rapid learning locally and realistic persistence with Docker.
 - REST interfaces: suitable for Power Apps/Power Automate integration and later service decomposition.
+

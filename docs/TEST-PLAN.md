@@ -17,3 +17,4 @@
 
 ## Test-data rule
 Use invented companies, names, references and account numbers. Do not copy data from an employer, bank, client or production system.
+
