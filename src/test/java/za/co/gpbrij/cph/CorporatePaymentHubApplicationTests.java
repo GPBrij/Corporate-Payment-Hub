@@ -1,0 +1,1 @@
+package za.co.gpbrij.cph; import org.junit.jupiter.api.Test; import org.springframework.boot.test.context.SpringBootTest; @SpringBootTest class CorporatePaymentHubApplicationTests { @Test void contextLoads(){} }

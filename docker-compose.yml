@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: cph
+      POSTGRES_USER: cph
+      POSTGRES_PASSWORD: local-only-password
+    ports: ["5432:5432"]
+    volumes: ["cph_data:/var/lib/postgresql/data"]
+  app:
+    build: .
+    environment:
+      SPRING_PROFILES_ACTIVE: postgres
+      DB_URL: jdbc:postgresql://db:5432/cph
+      DB_USER: cph
+      DB_PASSWORD: local-only-password
+    ports: ["8080:8080"]
+    depends_on: [db]
+volumes: { cph_data: {} }

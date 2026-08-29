@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/cph}
+    username: ${DB_USER:cph}
+    password: ${DB_PASSWORD:change-me}
+  jpa.hibernate.ddl-auto: update
